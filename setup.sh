@@ -3,6 +3,7 @@ set -euo pipefail
 
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}"
+mkdir -p "$CONFIG_DIR"
 
 for app in nvim fish zellij; do
   target="$CONFIG_DIR/$app"
