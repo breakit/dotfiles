@@ -1,0 +1,9 @@
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/breakit/nvim.git
+[submodule "fish"]
+	path = fish
+	url = https://github.com/breakit/fish.git
+[submodule "zellij"]
+	path = zellij
+	url = https://github.com/breakit/zellij.git
